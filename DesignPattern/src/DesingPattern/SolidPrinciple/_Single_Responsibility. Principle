@@ -1,0 +1,5 @@
+The Class should be changed only for one reason .i.e it should be doing
+only one operation. For Example a User Creation should just be used for
+Creating user. Validation and Storage can be moved on to other classes
+and Proxy to those classes can be used in User object so that It won't change
+even if implementation of storage or validation changes

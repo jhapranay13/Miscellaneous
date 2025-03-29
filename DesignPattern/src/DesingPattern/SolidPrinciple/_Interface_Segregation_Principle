@@ -1,0 +1,4 @@
+Class should not use interface which it does not use.
+Unimplemented method or methods returning null etc are classic example.
+Solution is to break the interface into smaller interfaces or place the specific method
+in the class itself.

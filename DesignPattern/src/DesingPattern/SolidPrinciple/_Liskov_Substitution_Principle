@@ -1,0 +1,4 @@
+If a bsae class provides a behaviour and a child class object is passed
+in a place which is expecting base class then the behaviour should be same.
+square and rectangle object example. Solution. Break the relationship and use
+interface

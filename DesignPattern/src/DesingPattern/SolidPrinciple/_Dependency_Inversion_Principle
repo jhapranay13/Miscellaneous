@@ -1,0 +1,5 @@
+Hiegher level module should not depend on lower level module
+they should depend on abstraction. Anstraction should not depnd
+on implementation. Implementation should depend on Abstraction
+One Solution can be instead of instantiating the object pass the abstraction(interface)
+as method.
